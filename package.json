@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git@github.com:monteslu/bean-io.git",
+  "repository": "git@github.com:anjiro/bean-io.git",
   "keywords": [
     "bean",
     "ble",
@@ -18,9 +18,9 @@
   "author": "Luis Montes",
   "license": "ISC",
   "dependencies": {
-    "bean-serial": "^0.1.0",
-    "ble-bean": "^0.8.0",
+    "bean-serial": ">=0.1.0",
+    "ble-bean": ">=0.8.0",
     "firmata": "git://github.com/monteslu/firmata#nohandshake",
-    "noble": "git://github.com/octoblu/noble"
+    "noble": "git://github.com/anjiro/noble"
   }
 }
